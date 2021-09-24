@@ -175,3 +175,7 @@ p {
     background: #fff;
     box-shadow: 0 0 15px #fff;
 }
+
+#ocultaralpasar1:hover {
+  display: none
+}
