@@ -176,6 +176,6 @@ p {
     box-shadow: 0 0 15px #fff;
 }
 
-#ocultaralpasar1:hover {
-  display: none
+.carta #ocultaralpasar1 {
+  display: none;
 }
