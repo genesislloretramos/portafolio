@@ -19,8 +19,16 @@
     <div class="contenedor">
         <h2 class="contenedor_departamento">P R O J E C T O S &emsp; F U L L S T A C K</h2>
         <article>
-            <div class="carta">
-                <img src="src/img/elmilloranime.online_web.gif" class="carta_img" alt="Pagina inicio de la web" height="250px" id="ocultaralpasar1" >
+            <div class="carta" id="cambiarImagen1">
+                <img src="src/img/elmilloranime.online_web.gif" class="carta_img" alt="Pagina inicio de la web" height="250px">
+                <script>
+                    $(".carta").hover(function () {
+                        $(this).attr("src", "src/img/elmilloranime.online_app.gif");
+                    },
+                    function () {
+                        $(this).attr("src", "src/img/elmilloranime.online_web.gif);
+                    });
+                </script>
                 <div class="card-body">
                     <h5 class="card-title">ElMillorAnime.online</h5>
                     <p class="card-text">
@@ -29,13 +37,12 @@
                     <div class="info">
                         <i class="fas fa-info-circle info"></i>
                         <p class="extrainfo">
-                            Aplicación creada con PHP, NodeJS,<br>
-                            ElectronJS, MySQL, Google Apis,<br>
-                            entre otras tecnológias.<br>
+                            Aplicación creada con PHP, <br>
+                            NodeJS, ElectronJS, MySQL, <br> 
+                            Google Apis ...<br>
                             Registro Web con OTP.<br>
-                            Contraseña encriptadas en MySQL.<br>
-                            Aplicación para Windows, <br>
-                            MacOS, Linux, <br>
+                            Aplicación para:<br>
+                            Windows, MacOS, Linux, <br>
                             (proximamente Android & Ios)
                         </p>
                     </div>
